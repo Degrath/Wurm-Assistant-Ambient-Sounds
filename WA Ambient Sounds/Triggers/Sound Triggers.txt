@@ -1,0 +1,264 @@
+{
+  "$id": "17",
+  "TriggerEntities": {
+    "$id": "18",
+    "$values": [
+      {
+        "$id": "19",
+        "soundId": "4fe5f99a-71f1-46e6-bcbe-90dce60632c2",
+        "popupTitle": "",
+        "popupContent": "Bison eats",
+        "popupDurationMillis": 3000,
+        "name": "Bison Eats",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "20",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>bison)/?\\s?(?<name>.*)?\\sgrazes",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": true,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "9603b91b-eba0-4e20-bec2-42aea267247d",
+        "triggerKind": 1
+      },
+      {
+        "$id": "21",
+        "soundId": "063eaacf-9386-4e43-bdca-f21bfc0a6396",
+        "popupTitle": "Bred Horses",
+        "popupContent": "Bred Horses grazes",
+        "popupDurationMillis": 3000,
+        "name": "Bred Horses",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "22",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<age>young|adolescent|mature|aged|venerable)\\s(?<status>fat|starving)\\s(?<name>\\w{7,11})\\sgrazes",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": false,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "a3b514ba-b118-41cc-8b66-66f535b8057d",
+        "triggerKind": 1
+      },
+      {
+        "$id": "23",
+        "soundId": "5d4cba95-6204-4c2a-99d8-c1f213cfb2af",
+        "popupTitle": "Chickens  Eat",
+        "popupContent": "Chicken eats",
+        "popupDurationMillis": 3000,
+        "name": "Chickens Eat",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "24",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>hen|rooster|chic)/?\\s?(?<name>.*)?\\seats",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": false,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "6db2c9eb-0080-4b64-a8c8-8edd0c239a87",
+        "triggerKind": 1
+      },
+      {
+        "$id": "25",
+        "soundId": "0d460668-6a95-44aa-9512-4aa612434ada",
+        "popupTitle": "",
+        "popupContent": "Cow eats",
+        "popupDurationMillis": 3000,
+        "name": "Cows eat",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "26",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>cow|bull|calf)/?\\s?(?<name>.*)?\\sgrazes",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": true,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "a5a9d8cc-6269-49b5-9d95-f88298d23a49",
+        "triggerKind": 1
+      },
+      {
+        "$id": "27",
+        "soundId": "afef38b7-b092-475b-8c21-85b09db891dc",
+        "popupTitle": null,
+        "popupContent": null,
+        "popupDurationMillis": 3000,
+        "name": "Deer Eats",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "28",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>deer|stag)/?\\s?(?<name>.*)?\\sgrazes",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": false,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "5e2bf44f-bef0-4fd8-aa5e-95a883d8699b",
+        "triggerKind": 1
+      },
+      {
+        "$id": "29",
+        "soundId": "5c29b080-44fd-4b03-9465-7c3280ed1bd9",
+        "popupTitle": null,
+        "popupContent": null,
+        "popupDurationMillis": 3000,
+        "name": "Dog Eats",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "30",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>dog)/?\\s?(?<name>.*)?\\seats",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": false,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "e849bb41-b6a2-49b0-a72c-1440f5de0cb7",
+        "triggerKind": 1
+      },
+      {
+        "$id": "31",
+        "soundId": "6c9b9c30-c046-46d7-bf3d-d4548047ac8a",
+        "popupTitle": null,
+        "popupContent": null,
+        "popupDurationMillis": 3000,
+        "name": "Sheep Eat",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": true,
+        "logTypes": {
+          "$id": "32",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>sheep|ram|lamb)/?\\s?(?<name>.*)?\\sgrazes",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": false,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "bdd59368-407d-4c50-88db-65287e630ea5",
+        "triggerKind": 1
+      },
+      {
+        "$id": "33",
+        "soundId": "063eaacf-9386-4e43-bdca-f21bfc0a6396",
+        "popupTitle": "Wild Horses",
+        "popupContent": "Wild Horses grazes",
+        "popupDurationMillis": 3000,
+        "name": "Wild Horse eats",
+        "cooldown": "00:00:00",
+        "cooldownUntil": "0001-01-01T00:00:00",
+        "cooldownEnabled": false,
+        "active": false,
+        "logTypes": {
+          "$id": "34",
+          "$values": [
+            2
+          ]
+        },
+        "resetOnConditonHit": false,
+        "delayEnabled": false,
+        "delay": "00:00:00",
+        "condition": "(?<species>horse|foal|unicorn|hell\\shorse|donkey)/?\\s?(?<name>.*)?\\sgrazes",
+        "notificationDelay": 1.0,
+        "stayUntilClicked": true,
+        "hasSound": true,
+        "hasPopup": false,
+        "matchEveryLine": false,
+        "source": "",
+        "skillTriggerTreshhold": 0.0,
+        "skillTriggerSkillName": "",
+        "triggerId": "43ebb18e-1846-4abd-bd90-dc1afa6a1cb4",
+        "triggerKind": 1
+      }
+    ]
+  }
+}
